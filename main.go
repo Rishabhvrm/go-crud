@@ -29,4 +29,16 @@ func main() {
 		fmt.Println("Val is NOT greater than 100")
 	}	
 
+	// loops
+
+	for i := 0; i < 5; i ++ {
+		fmt.Println(i)
+	}
+
+	i := 10
+	for i < 15 {
+		fmt.Println(i)
+		i++
+	}
+
 }
