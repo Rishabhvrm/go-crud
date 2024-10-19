@@ -41,4 +41,13 @@ func main() {
 		i++
 	}
 
+	// array
+	nums := []int{1,2,3,4,5}
+	fmt.Println(nums)
+
+	for idx, val := range nums {
+		fmt.Println(idx, val)
+	}
+
+
 }
